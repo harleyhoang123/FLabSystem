@@ -7,7 +7,7 @@ function WelcomeScreen( {navigation} ) {
             <Text>Login Form</Text>
             <TextInput placeholder={"username"}/>
             <TextInput placeholder={"password"}/>
-            <Button title={"Login"} onPress={() => navigation.push("HomeScreen")}/>
+            <Button title={"Login"} onPress={() => navigation.push("")}/>
         </View>
     );
 }
